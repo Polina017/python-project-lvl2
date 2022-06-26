@@ -1,6 +1,6 @@
 import pytest
 import os
-from gendiff.generate_gendiff import generate_diff
+from gendiff.gendiff import generate_diff
 
 
 @pytest.mark.parametrize(
@@ -16,3 +16,4 @@ def test_generate_diff(style, file_before, file_after, file_result):
     with open(os.path.abspath(file_result)) as f:
         result = f.read()
     assert generate_diff(file_before, file_after, style) == result
+    
