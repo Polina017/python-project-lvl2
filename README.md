@@ -16,6 +16,6 @@ gendiff first_file_path second_file_path
 
 gendiff -h - call help
 
--f --format {stylish, plain, json} - choose format.
+-f --format {stylish, plain, json} - choose format
 ## Demo version
 [![asciicast](https://asciinema.org/a/idNECMGIhX8NpvZ8gIE56kFxm.svg)](https://asciinema.org/a/idNECMGIhX8NpvZ8gIE56kFxm)
