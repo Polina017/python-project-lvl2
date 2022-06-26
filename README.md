@@ -13,7 +13,9 @@ Gendiff takes 2 files(json and yaml), finds and printed difference between them.
 pip install --user git+https://github.com/Polina017/python-project-lvl2.git
 ## How to use
 gendiff first_file_path second_file_path
+
 gendiff -h - call help
+
 -f --format {stylish, plain, json} - choose format.
 ## Demo version
 [![asciicast](https://asciinema.org/a/idNECMGIhX8NpvZ8gIE56kFxm.svg)](https://asciinema.org/a/idNECMGIhX8NpvZ8gIE56kFxm)
