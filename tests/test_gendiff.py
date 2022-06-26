@@ -1,6 +1,6 @@
 import pytest
 import os
-from gendiff.gendiff import generate_diff
+from gendiff.gen_diff import generate_diff
 
 
 @pytest.mark.parametrize(
